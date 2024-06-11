@@ -8,7 +8,7 @@ The purpose of this tool is to streamline the process of gathering inmate inform
 
 ## Methodology
 
-The tool utilizes web scraping technique known as "browser automation" or "headless browsing with the Selenium framework to extract inmate data from the CDCR website. Upon entering a CDCR number, the application navigates to the inmate search page, enters the provided CDCR number, and retrieves relevant information such as the inmate's name, CDCR number, age, admission date, current location, and commitment county. This information is then formatted into a DataFrame and saved into an Excel file for further analysis or record-keeping.
+The tool utilizes web scraping technique known as "browser automation" or "headless browsing" with the Selenium framework to extract inmate data from the CDCR website. Upon entering a CDCR number, the application navigates to the inmate search page, enters the provided CDCR number, and retrieves relevant information such as the inmate's name, CDCR number, age, admission date, current location, and commitment county. This information is then formatted into a DataFrame and saved into an Excel file for further analysis or record-keeping.
 
 ## Prerequisites
 
