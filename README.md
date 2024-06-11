@@ -36,7 +36,7 @@ Before running the application, make sure you have the following installed:
         - Extract the WebDriver executable to a directory.
         - Add this directory to your system's PATH environment variable.
 
-2. Run the application: `python CDCR_Data_Extraction_Tool.py`
+2. Run the application: `python cdcr_scraper.py`
 3. Enter the CDCR Number of the inmate you wish to retrieve data for.
 4. Click the "Start Scraping" button to initiate the data extraction process.
 5. The application will extract the inmate data and save it to an Excel file named `cdcr_data.xlsx`.
