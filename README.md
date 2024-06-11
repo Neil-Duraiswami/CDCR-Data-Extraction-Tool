@@ -2,6 +2,14 @@
 
 The CDCR Data Extraction Tool is a Python application designed to automate the extraction of inmate data from the [California Department of Corrections and Rehabilitation (CDCR) website](https://apps.cdcr.ca.gov/ciris). It provides a user-friendly interface for inputting CDCR numbers and generates Excel reports containing the extracted inmate information.
 
+## Purpose
+
+The purpose of this tool is to streamline the process of gathering inmate information from the CDCR website. It eliminates the need for manual data entry and allows users to quickly retrieve essential information about inmates using their CDCR numbers.
+
+## Methodology
+
+The tool utilizes web scraping technique known as "browser automation" or "headless browsing with the Selenium framework to extract inmate data from the CDCR website. Upon entering a CDCR number, the application navigates to the inmate search page, enters the provided CDCR number, and retrieves relevant information such as the inmate's name, CDCR number, age, admission date, current location, and commitment county. This information is then formatted into a DataFrame and saved into an Excel file for further analysis or record-keeping.
+
 ## Prerequisites
 
 Before running the application, make sure you have the following installed:
